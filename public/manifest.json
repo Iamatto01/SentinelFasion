@@ -1,0 +1,22 @@
+{
+  "name": "StyleSentinel AI Outfit Planner",
+  "short_name": "StyleSentinel",
+  "description": "Your AI-Powered Personal Fashion Stylist. Organize your wardrobe, get smart outfit suggestions, and virtually try on clothes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#0a0a1a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
