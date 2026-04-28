@@ -12,14 +12,14 @@
   padding: 0 8px;
   z-index: 100;
   
-  /* Telegram Mirror Glass */
-  background: rgba(45, 45, 45, 0.35);
+  /* Light Aesthetic Mirror Glass */
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(35px) saturate(220%);
   -webkit-backdrop-filter: blur(35px) saturate(220%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #ffffff;
   border-radius: 32px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(255, 255, 255, 1);
 }
 
 .nav-item {
@@ -88,8 +88,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #121212;
-  box-shadow: 0 10px 25px rgba(200, 200, 200, 0.2);
+  color: #ffffff;
+  box-shadow: var(--shadow-glow);
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
