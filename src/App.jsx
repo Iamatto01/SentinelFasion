@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useStore } from './store';
 import BottomNav from './components/BottomNav';
 
@@ -13,7 +13,7 @@ function App() {
   const store = useStore();
 
   return (
-    <BrowserRouter basename="/SentinelFashion/">
+    <HashRouter>
       <div className="app-layout">
 
         <main className="page-content">
@@ -28,7 +28,7 @@ function App() {
         </main>
         <BottomNav />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
